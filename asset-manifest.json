@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c09bfbdb.chunk.css",
-    "main.js": "/static/js/main.7a5afa82.chunk.js",
-    "main.js.map": "/static/js/main.7a5afa82.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.babc357c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.babc357c.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c26bbe8d.chunk.js": "/static/js/2.c26bbe8d.chunk.js",
-    "static/js/2.c26bbe8d.chunk.js.map": "/static/js/2.c26bbe8d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ab48b6409ade4fe0a872b583156b47f7.js": "/precache-manifest.ab48b6409ade4fe0a872b583156b47f7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c09bfbdb.chunk.css.map": "/static/css/main.c09bfbdb.chunk.css.map",
-    "static/js/2.c26bbe8d.chunk.js.LICENSE.txt": "/static/js/2.c26bbe8d.chunk.js.LICENSE.txt"
+    "main.css": "/robotechno/static/css/main.c09bfbdb.chunk.css",
+    "main.js": "/robotechno/static/js/main.7ca2eb18.chunk.js",
+    "main.js.map": "/robotechno/static/js/main.7ca2eb18.chunk.js.map",
+    "runtime-main.js": "/robotechno/static/js/runtime-main.6ac734fb.js",
+    "runtime-main.js.map": "/robotechno/static/js/runtime-main.6ac734fb.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/robotechno/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.c26bbe8d.chunk.js": "/robotechno/static/js/2.c26bbe8d.chunk.js",
+    "static/js/2.c26bbe8d.chunk.js.map": "/robotechno/static/js/2.c26bbe8d.chunk.js.map",
+    "index.html": "/robotechno/index.html",
+    "precache-manifest.c6cd5dd44f758a606852375d398086ac.js": "/robotechno/precache-manifest.c6cd5dd44f758a606852375d398086ac.js",
+    "service-worker.js": "/robotechno/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/robotechno/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.c09bfbdb.chunk.css.map": "/robotechno/static/css/main.c09bfbdb.chunk.css.map",
+    "static/js/2.c26bbe8d.chunk.js.LICENSE.txt": "/robotechno/static/js/2.c26bbe8d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.babc357c.js",
+    "static/js/runtime-main.6ac734fb.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.c26bbe8d.chunk.js",
     "static/css/main.c09bfbdb.chunk.css",
-    "static/js/main.7a5afa82.chunk.js"
+    "static/js/main.7ca2eb18.chunk.js"
   ]
 }
