@@ -1,3 +1,25 @@
 .selected-note {
   background-color: yellowgreen;
 }
+
+.note-label {
+  text-align: center;
+  width: 2rem;
+  /* border-collapse: collapse; */
+  /* background-color: yellowgreen; */
+  /* outline: none; */
+}
+
+.right-button {
+  text-align: right;
+}
+
+.selected-instrument {
+  outline-style: solid;
+  outline-color: var(--primary);
+}
+
+#instrument-picker img {
+  margin-right: 1em;
+  margin-left: 1em;
+}
