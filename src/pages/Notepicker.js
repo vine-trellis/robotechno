@@ -3,11 +3,13 @@ import { Table, Container, Button, Row, Col, Navbar, InputGroup, Form, Image } f
 import { Instrument } from 'musical.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faVolumeUp, faPencilAlt } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
-import drums from './assets/instruments/drums.png';
-import triangle from './assets/instruments/triangle.png';
-import trumpet from './assets/instruments/trumpet.png';
+import drums from '../assets/instruments/drums.png';
+import triangle from '../assets/instruments/triangle.png';
+import trumpet from '../assets/instruments/trumpet.png';
 import './Notepicker.css';
+
 
 const SEMITONES = ['C', '^C', 'D', '^D', 'E', 'F', '^F', 'G', '^G', 'A', '^A', 'B'].reverse();
 
@@ -24,7 +26,7 @@ export default function Notepicker() {
   return (
     <Container>
       <Navbar>
-        <Navbar.Brand href="#">Robotechno</Navbar.Brand>
+        <Navbar.Brand href="#">Robo-Techno</Navbar.Brand>
         <Navbar.Brand>
           <InputGroup>
             <Form.Control as="input" placeholder="Username" value={username} onChange={e => setUsername(e.target.value)} />
@@ -109,7 +111,7 @@ export default function Notepicker() {
         </Col>
       </Row>
       <Row className="my-2">
-        <Col md={{ span: 3, offset: 1 }}>
+        <Col md={{ span: 3 }}>
           <Button onClick={() => {
             console.log(notes.join(""));
             inst.play({ tempo: bpm }, notes.join(""));
@@ -120,7 +122,7 @@ export default function Notepicker() {
             className="mx-1"
           ><FontAwesomeIcon icon={faVolumeUp} /></Button>
         </Col>
-        <Col>
+        <Col md={6}>
           <div id='instrument-picker'>
             <Image
               className={instrument === 'drums' ? 'selected-instrument' : 'unselected-instrument'}
@@ -139,11 +141,13 @@ export default function Notepicker() {
             />
           </div>
         </Col>
-
+        <Col>
+          <h6>Create you own tune on this keyboard and click submit when you are ready to play with your friends!</h6>
+        </Col>
       </Row>
       <Row className="my-2">
         <Col md={{ span: 2, offset: 10 }} className="right-button">
-          <Button variant="dark">
+          <Button variant="dark" as={Link} to="/listen">
             Submit
           </Button>
         </Col>
