@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Table, Container, Button, Row, Col, Navbar, InputGroup, Form, Image } from 'react-bootstrap';
-import { Instrument } from '../musical.js/musical';
+import { Instrument } from 'musical.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faVolumeUp, faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
